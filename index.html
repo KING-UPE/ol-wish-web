@@ -63,7 +63,11 @@
       display: grid; place-items: center;
       width: 36px; height: 36px; border-radius: 9px;
       background: var(--pen); color: #fff;
-      font-size: .8rem; font-weight: 800; letter-spacing: -.02em;
+      overflow: hidden; flex-shrink: 0;
+    }
+    .brand-mark img {
+      width: 24px; height: 24px; object-fit: contain;
+      display: block;
     }
     .nav-links { display: flex; gap: 1.75rem; margin-left: auto; }
     .nav-links a {
@@ -389,8 +393,10 @@
 
   <header class="nav" id="nav">
     <div class="wrap nav-in">
-      <a href="#top" class="brand" aria-label="2029 නව පන්ති ආරම්භය">
-        <span class="brand-mark">A/L</span>
+      <a href="#top" class="brand" aria-label="ECHEM - 2029 නව පන්ති ආරම්භය">
+        <span class="brand-mark">
+          <img src="Assets/logo-white.png" alt="ECHEM Logo" width="24" height="24">
+        </span>
         <span class="brand-text">2029 නව පන්ති</span>
       </a>
       <nav class="nav-links" aria-label="Main">
