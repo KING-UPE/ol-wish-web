@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Good luck for your O/L Exam | 2029 නව පන්ති ආරම්භය</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Noto+Sans+Sinhala:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-page: #f8fafc;
+      --bg-card: #ffffff;
+      --bg-accent: #f1f5f9;
+      --navy-dark: #0f172a;
+      --navy-primary: #1e293b;
+      --navy-light: #334155;
+      --gold-primary: #d97706;
+      --gold-light: #f59e0b;
+      --gold-pale: #fef3c7;
+      --blue-accent: #2563eb;
+      --blue-light: #eff6ff;
+      --border-subtle: #e2e8f0;
+      --border-gold: #fde68a;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --text-dim: #64748b;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', 'Noto Sans Sinhala', sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      min-height: 100vh;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page-container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 3.5rem 1.25rem 5rem;
+    }
+
+    /* ===================================================
+       1. Grand "Good Luck for your O/L Exam" Wishing Window
+       =================================================== */
+    .wishing-window {
+      position: relative;
+      background: #ffffff;
+      border: 2px solid var(--gold-light);
+      outline: 1px solid var(--border-gold);
+      outline-offset: -6px;
+      border-radius: 16px;
+      padding: 3.5rem 2rem 3rem;
+      text-align: center;
+      margin-bottom: 3.5rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.02);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .wishing-window:hover {
+      box-shadow: 0 16px 40px rgba(217, 119, 6, 0.08);
+    }
+
+    /* Elegant Top Ribbon */
+    .wishing-ribbon {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: var(--gold-primary);
+      background: var(--gold-pale);
+      border: 1px solid var(--border-gold);
+      padding: 0.4rem 1.2rem;
+      border-radius: 9999px;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Big, Special Wishing Title */
+    .wishing-title {
+      font-size: clamp(2.3rem, 6vw, 3.8rem);
+      font-weight: 800;
+      line-height: 1.15;
+      color: var(--navy-dark);
+      letter-spacing: -0.5px;
+      margin-bottom: 1.2rem;
+    }
+
+    .wishing-title-accent {
+      color: var(--gold-primary);
+    }
+
+    /* Dignified Sinhala Blessing */
+    .wishing-blessing {
+      font-size: clamp(1.05rem, 2.5vw, 1.2rem);
+      font-weight: 500;
+      color: var(--text-muted);
+      max-width: 620px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+
+    /* Decorative bottom flourish line */
+    .wishing-flourish {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      margin-top: 1.75rem;
+    }
+
+    .flourish-line {
+      width: 45px;
+      height: 1px;
+      background: var(--gold-light);
+      opacity: 0.6;
+    }
+
+    .flourish-diamond {
+      width: 6px;
+      height: 6px;
+      background: var(--gold-primary);
+      transform: rotate(45deg);
+    }
+
+    /* ===================================================
+       2. Hero Section: "2029 නව පන්ති ආරම්භය" & Centers
+       =================================================== */
+    .hero-section {
+      text-align: center;
+      margin-bottom: 2.75rem;
+    }
+
+    .hero-heading {
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 800;
+      color: var(--navy-dark);
+      letter-spacing: -0.5px;
+      line-height: 1.25;
+      margin-bottom: 1.5rem;
+    }
+
+    .centers-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+    }
+
+    .center-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.65rem 1.4rem;
+      background: #ffffff;
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--navy-dark);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .center-badge:hover {
+      border-color: var(--blue-accent);
+      transform: translateY(-1px);
+    }
+
+    .center-badge.online {
+      background: var(--blue-light);
+      border-color: rgba(37, 99, 235, 0.3);
+      color: var(--blue-accent);
+    }
+
+    /* ===================================================
+       Wireframe Divider Line
+       =================================================== */
+    .wireframe-divider {
+      height: 1px;
+      background: var(--border-subtle);
+      border: none;
+      margin: 3.25rem 0;
+    }
+
+    /* ===================================================
+       3. Section: "පන්ති ආරම්භක දින" & Permanent Blur Box
+       =================================================== */
+    .section-title {
+      font-size: clamp(1.4rem, 3.5vw, 1.85rem);
+      font-weight: 800;
+      color: var(--navy-dark);
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .blur-container {
+      position: relative;
+      background: #ffffff;
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 2.75rem 1.75rem;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+      overflow: hidden;
+    }
+
+    /* Diagonal hatch background directly honoring wireframe sketch */
+    .blur-container::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: repeating-linear-gradient(
+        -45deg,
+        rgba(15, 23, 42, 0.02),
+        rgba(15, 23, 42, 0.02) 16px,
+        transparent 16px,
+        transparent 32px
+      );
+      pointer-events: none;
+    }
+
+    .blur-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 620px;
+      margin: 0 auto;
+    }
+
+    .blur-status-tag {
+      display: inline-block;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--gold-primary);
+      background: var(--gold-pale);
+      border: 1px solid var(--border-gold);
+      padding: 0.35rem 0.95rem;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .blur-description {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Permanently blurred schedule preview */
+    .blur-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+      filter: blur(10px);
+      user-select: none;
+      pointer-events: none;
+      opacity: 0.45;
+    }
+
+    .schedule-card {
+      background: var(--bg-accent);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 1.1rem 0.85rem;
+      text-align: center;
+    }
+
+    .schedule-card .place-label {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--navy-dark);
+      margin-bottom: 0.3rem;
+    }
+
+    .schedule-card .class-label {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--blue-accent);
+    }
+
+    .schedule-card .date-note {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      margin-top: 0.35rem;
+    }
+
+    /* ===================================================
+       4. Online Meeting Section
+       =================================================== */
+    .meeting-section {
+      background: #ffffff;
+      border: 1px solid var(--border-subtle);
+      border-radius: 14px;
+      padding: 3rem 2rem;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+    }
+
+    .meeting-pill {
+      display: inline-block;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--blue-accent);
+      background: var(--blue-light);
+      border: 1px solid rgba(37, 99, 235, 0.2);
+      padding: 0.35rem 0.95rem;
+      border-radius: 6px;
+      margin-bottom: 1.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .meeting-title {
+      font-size: clamp(1.4rem, 3.8vw, 2.05rem);
+      font-weight: 800;
+      color: var(--navy-dark);
+      line-height: 1.35;
+      max-width: 700px;
+      margin: 0 auto 2rem;
+    }
+
+    /* Date and Time Panel */
+    .datetime-panel {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem 3rem;
+      background: var(--bg-accent);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 1.35rem 2rem;
+      margin: 1.75rem auto;
+      max-width: 620px;
+    }
+
+    .datetime-item {
+      text-align: left;
+    }
+
+    .datetime-lbl {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.25rem;
+    }
+
+    .datetime-txt {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--navy-dark);
+    }
+
+    /* Notice Box (Exact wireframe line) */
+    .notice-box {
+      background: var(--gold-pale);
+      border-left: 4px solid var(--gold-light);
+      border-radius: 0 8px 8px 0;
+      padding: 1.1rem 1.4rem;
+      max-width: 620px;
+      margin: 2rem auto 2.25rem;
+      text-align: left;
+    }
+
+    .notice-txt {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #78350f;
+      line-height: 1.5;
+    }
+
+    /* Action Buttons */
+    .meeting-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.85rem;
+      margin-top: 1.5rem;
+    }
+
+    .btn-primary {
+      display: inline-block;
+      background: var(--navy-dark);
+      color: #ffffff;
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 0.8rem 1.85rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.2s, transform 0.2s;
+      cursor: pointer;
+    }
+
+    .btn-primary:hover {
+      background: var(--navy-primary);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      display: inline-block;
+      background: #ffffff;
+      color: var(--navy-dark);
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 0.8rem 1.85rem;
+      border-radius: 8px;
+      text-decoration: none;
+      border: 1px solid var(--border-subtle);
+      transition: background-color 0.2s, border-color 0.2s;
+      cursor: pointer;
+    }
+
+    .btn-secondary:hover {
+      background: var(--bg-accent);
+      border-color: #cbd5e1;
+    }
+
+    /* ===================================================
+       5. Footer
+       =================================================== */
+    footer {
+      text-align: center;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    footer p {
+      margin-bottom: 0.5rem;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: var(--navy-dark);
+    }
+
+    @media (max-width: 600px) {
+      .page-container {
+        padding: 2rem 1rem 3.5rem;
+      }
+      .wishing-window {
+        padding: 2.5rem 1.25rem 2rem;
+      }
+      .meeting-section {
+        padding: 2rem 1.25rem;
+      }
+      .datetime-panel {
+        padding: 1rem 1.25rem;
+        gap: 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <main class="page-container">
+
+    <!-- 1. Grand "Good Luck for your O/L Exam" Wishing Window -->
+    <section class="wishing-window">
+      <div class="wishing-ribbon">
+        විභාග සුභාශිංසන &bull; Official Exam Wishes
+      </div>
+
+      <h1 class="wishing-title">
+        Good luck for your <span class="wishing-title-accent">O/L Exam</span>
+      </h1>
+
+      <p class="wishing-blessing">
+        සාමාන්‍ය පෙළ විභාගයට පෙනී සිටින සියලුම දූ දරුවන්ට උසස්ම සාමාර්ථ සමඟින් විශිෂ්ට ජයග්‍රහණයක් අත්වේවායි හදවතින්ම ප්‍රාර්ථනා කරමු!
+      </p>
+
+      <div class="wishing-flourish">
+        <div class="flourish-line"></div>
+        <div class="flourish-diamond"></div>
+        <div class="flourish-line"></div>
+      </div>
+    </section>
+
+    <!-- 2. Hero Headline: "2029 නව පන්ති ආරම්භය" & Institutes -->
+    <header class="hero-section">
+      <h2 class="hero-heading">2029 නව පන්ති ආරම්භය</h2>
+
+      <div class="centers-row">
+        <div class="center-badge">ඉන්දීප - ගම්පහ</div>
+        <div class="center-badge">Sasip - නුගේගොඩ</div>
+        <div class="center-badge online">ලංකාවටම Online</div>
+      </div>
+    </header>
+
+    <hr class="wireframe-divider">
+
+    <!-- 3. Section: "පන්ති ආරම්භක දින" with permanently blurred "Blur Box" -->
+    <section>
+      <h3 class="section-title">පන්ති ආරම්භක දින</h3>
+
+      <div class="blur-container">
+        <div class="blur-inner">
+          <div class="blur-status-tag">දෙසැම්බර් 20 දින ප්‍රකාශයට පත් කෙරේ</div>
+
+          <p class="blur-description">
+            ගම්පහ ඉන්දීප, නුගේගොඩ Sasip සහ දිවයිනටම Online පන්ති ආරම්භ වන නිශ්චිත දින සහ වේලාවන් දෙසැම්බර් 20 පැවැත්වෙන Online Meeting එකේදී නිල වශයෙන් දැනුම් දෙනු ලැබේ.
+          </p>
+
+          <div class="blur-grid">
+            <div class="schedule-card">
+              <div class="place-label">ඉන්දීප - ගම්පහ</div>
+              <div class="class-label">2029 A/L Theory</div>
+              <div class="date-note">පන්ති ආරම්භක දිනය</div>
+            </div>
+            <div class="schedule-card">
+              <div class="place-label">Sasip - නුගේගොඩ</div>
+              <div class="class-label">2029 A/L Theory</div>
+              <div class="date-note">පන්ති ආරම්භක දිනය</div>
+            </div>
+            <div class="schedule-card">
+              <div class="place-label">ලංකාවටම Online</div>
+              <div class="class-label">සජීවී විකාශය</div>
+              <div class="date-note">පන්ති ආරම්භක දිනය</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Meeting Section -->
+    <section style="margin-top: 3.25rem;">
+      <div class="meeting-section">
+        <div class="meeting-pill">Online Meeting</div>
+
+        <h3 class="meeting-title">
+          O/L වලින් පසු A/L වලට සූදානම් වීම පිළිබඳ විශේෂ Online Meeting එක.
+        </h3>
+
+        <!-- Date & Time (From PDF: "දෙසැම්බර් 20 – රාත්‍රී 8 සිට 9 දක්වා .....") -->
+        <div class="datetime-panel">
+          <div class="datetime-item">
+            <div class="datetime-lbl">දිනය</div>
+            <div class="datetime-txt">දෙසැම්බර් 20</div>
+          </div>
+          <div class="datetime-item">
+            <div class="datetime-lbl">වේලාව</div>
+            <div class="datetime-txt">රාත්‍රී 8 සිට 9 දක්වා .....</div>
+          </div>
+        </div>
+
+        <!-- Announcement Note (From PDF: "පන්ති ආරම්භක දින එවිට දැනුම් දෙනු ලැබේ ......") -->
+        <div class="notice-box">
+          <div class="notice-txt">
+            පන්ති ආරම්භක දින එවිට දැනුම් දෙනු ලැබේ ......
+          </div>
+        </div>
+
+        <!-- Action Links -->
+        <div class="meeting-actions">
+          <a href="#" class="btn-primary" onclick="alert('Online Meeting සබැඳිය දෙසැම්බර් 20 දින දැනුම් දෙනු ලැබේ.'); return false;">
+            Online Meeting එකට එක්වන්න
+          </a>
+          <a href="#" class="btn-secondary" onclick="addToCalendar(); return false;">
+            දින දර්ශනයට එක් කරන්න
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="wireframe-divider">
+
+    <!-- 5. Footer (From PDF: "footer") -->
+    <footer>
+      <p><strong>2029 නව පන්ති ආරම්භය</strong> | Good luck for your O/L Exam</p>
+      <p>ඉන්දීප - ගම්පහ &bull; Sasip - නුගේගොඩ &bull; ලංකාවටම Online</p>
+      <div class="footer-links">
+        <a href="#">මුල් පිටුව</a>
+        <a href="#">පන්ති ආරම්භක දින</a>
+        <a href="#">Online Meeting</a>
+        <a href="#">විමසීම්</a>
+      </div>
+    </footer>
+
+  </main>
+
+  <script>
+    function addToCalendar() {
+      const title = encodeURIComponent("O/L වලින් පසු A/L වලට සූදානම් වීම පිළිබඳ විශේෂ Online Meeting එක");
+      const details = encodeURIComponent("2029 නව පන්ති ආරම්භය සහ පන්ති ආරම්භක දින දැනුම් දෙන විශේෂ Online Meeting එක.");
+      const location = encodeURIComponent("Online");
+      
+      const now = new Date();
+      let year = now.getFullYear();
+      let target = new Date(year, 11, 20, 20, 0, 0);
+      if (now > target) year++;
+      
+      const startUtc = `${year}1220T143000Z`;
+      const endUtc = `${year}1220T153000Z`;
+      
+      const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${startUtc}/${endUtc}&details=${details}&location=${location}`;
+      window.open(url, '_blank');
+    }
+  </script>
+</body>
+</html>
