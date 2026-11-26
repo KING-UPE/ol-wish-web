@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://king-upe.github.io/ol-wish-web/sitemap.xml
+Sitemap: https://2029.echem.lk/sitemap.xml
